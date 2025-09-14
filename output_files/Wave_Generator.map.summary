@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Sun Sep 14 13:13:11 2025
+Quartus Prime Version : 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
+Revision Name : Wave_Generator
+Top-level Entity Name : sin_wave
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 31
+Total pins : 13
+Total virtual pins : 0
+Total block memory bits : 12,288
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0
+Total DLLs : 0

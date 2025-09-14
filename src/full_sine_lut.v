@@ -1,0 +1,26 @@
+module full_sine_lut (i_clk, i_add, o_data); //take 2 clock to output;
+
+ input i_clk;
+ input [11:0] i_add;
+ output [11:0] o_data;
+ 
+ reg [9:0] lut1_i_add;
+
+ sin_lut lut1 (.i_clk(i_clk), .i_add(lut1_i_add), .o_data(o_data));
+ 
+ 
+ 
+ always @(posedge i_clk) begin
+ 
+  if(i_add[11:10] == 2'b01 || i_add[11:10] == 2'b11) begin
+      lut1_i_add <= ~(i_add[9:0]);     
+  end
+  
+  else begin
+      lut1_i_add <= i_add[9:0];
+  end
+ 
+ end
+ 
+
+endmodule

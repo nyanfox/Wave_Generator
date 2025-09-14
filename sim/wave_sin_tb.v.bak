@@ -1,0 +1,18 @@
+`timescale 1ns/1ps
+
+module wave_sin_tb();
+
+ wire [11:0] o_data;
+ wire i_clk;
+
+
+ sin_wave (.i_clk(clk), .o_data(o_data));
+
+ always #5 clk = ~clk;
+ initial begin
+    $monitor("%d", o_data);
+    #20000 $finish;  // chạy 20,000ns rồi dừng
+ 
+ end
+
+endmodule

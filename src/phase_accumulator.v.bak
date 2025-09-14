@@ -1,0 +1,9 @@
+module phase_accumulator (i_clk, i_reset, i_word, );
+
+ input i_clk, i_reset;
+ input [N-1:0] i_word;
+
+ localparam N = 32 // size of tuning word
+
+
+endmodule

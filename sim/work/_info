@@ -1,0 +1,115 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/App/ModelSim
+vfull_sine_lut
+Z0 !s110 1757830167
+!i10b 1
+!s100 BfeND_[AVIR@S71AQ`iCF1
+IeDd5TEho;Je9hDz`d0lb23
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/Project/Bach_Khoa/Wave_Generator/sim
+w1757829603
+8E:/Project/Bach_Khoa/Wave_Generator/src/full_sine_lut.v
+FE:/Project/Bach_Khoa/Wave_Generator/src/full_sine_lut.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1757830167.000000
+!s107 E:/Project/Bach_Khoa/Wave_Generator/src/full_sine_lut.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Project/Bach_Khoa/Wave_Generator/src/full_sine_lut.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vphase_accumulator
+R0
+!i10b 1
+!s100 V=oi9O3b:b[2;nL<j>4lz0
+Ij4n:0jMgS2T3NG4l:;PGe2
+R1
+R2
+w1757829223
+8E:\Project\Bach_Khoa\Wave_Generator\src\phase_accumulator.v
+FE:\Project\Bach_Khoa\Wave_Generator\src\phase_accumulator.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:\Project\Bach_Khoa\Wave_Generator\src\phase_accumulator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:\Project\Bach_Khoa\Wave_Generator\src\phase_accumulator.v|
+!i113 1
+R5
+R6
+vsin_lut
+R0
+!i10b 1
+!s100 UL9HKJI2CZhe@9CD:DW2W3
+ILjRdFf;=]Y[An2NeC0E^O0
+R1
+R2
+w1757826183
+8E:/Project/Bach_Khoa/Wave_Generator/src/sin_lut.v
+FE:/Project/Bach_Khoa/Wave_Generator/src/sin_lut.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/Project/Bach_Khoa/Wave_Generator/src/sin_lut.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Project/Bach_Khoa/Wave_Generator/src/sin_lut.v|
+!i113 1
+R5
+R6
+vsin_wave
+R0
+!i10b 1
+!s100 FD<CjFFB:OG<2lT@;9mae3
+Ia@h<@l_XNOMkOc:6eEb0@1
+R1
+R2
+w1757829250
+8E:\Project\Bach_Khoa\Wave_Generator\src\sin_wave.v
+FE:\Project\Bach_Khoa\Wave_Generator\src\sin_wave.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:\Project\Bach_Khoa\Wave_Generator\src\sin_wave.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:\Project\Bach_Khoa\Wave_Generator\src\sin_wave.v|
+!i113 1
+R5
+R6
+vwave_sin_tb
+!s110 1757830395
+!i10b 1
+!s100 mIM]nRKo6D_3]mDi`zJTD3
+IocdTWokXNmh0=f@ZTn=@E3
+R1
+R2
+w1757830383
+8E:\Project\Bach_Khoa\Wave_Generator\sim\wave_sin_tb.v
+FE:\Project\Bach_Khoa\Wave_Generator\sim\wave_sin_tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1757830395.000000
+!s107 E:\Project\Bach_Khoa\Wave_Generator\sim\wave_sin_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:\Project\Bach_Khoa\Wave_Generator\sim\wave_sin_tb.v|
+!i113 1
+R5
+R6
