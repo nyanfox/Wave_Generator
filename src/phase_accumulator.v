@@ -1,14 +1,15 @@
-module phase_accumulator (i_clk, o_data);
+module phase_accumulator (i_clk, i_ftw, o_data);
 
  input i_clk;
- output reg [11:0] o_data;
+ input [23:0] i_ftw;
+ output reg [23:0] o_data;
  
- reg [11:0] add = 0;
+ reg [23:0] phase = 0;
  
  always @(posedge i_clk) begin
  
-     o_data <= add;
-	  add <= add + 1;
+     o_data <= phase;
+	  phase <= phase + i_ftw;
  
  end
 

@@ -1,0 +1,25 @@
+
+module wave_square_tb();
+
+ wire [11:0] o_data;
+ reg clk;
+ reg [23:0] ftw;
+
+ square_wave square (.i_clk(clk), .i_ftw(ftw), .o_data(o_data));
+
+ always begin #5 clk = ~clk; end
+
+ always @(posedge clk) begin
+ 
+  $display("value = %h", o_data);
+ 
+ end
+ 
+ initial begin
+    clk = 0;
+	 ftw = 1000000;
+    $monitor("%d", o_data);
+ 
+ end
+
+endmodule

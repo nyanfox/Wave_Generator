@@ -1,4 +1,4 @@
-E:/Project/Bach_Khoa/Wave_Generator/sim/wave_sin_tb.v {1 {vlog -work work -stats=none {E:\Project\Bach_Khoa\Wave_Generator\sim\wave_sin_tb.v}
+E:/Project/Bach_Khoa/Wave_Generator/sim/wave_sin_tb.v {1 {vlog -work work -stats=none E:/Project/Bach_Khoa/Wave_Generator/sim/wave_sin_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module wave_sin_tb
 
@@ -12,19 +12,47 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	sin_lut
 
-} {} {}} E:/Project/Bach_Khoa/Wave_Generator/src/phase_accumulator.v {1 {vlog -work work -stats=none {E:\Project\Bach_Khoa\Wave_Generator\src\phase_accumulator.v}
+} {} {}} E:/Project/Bach_Khoa/Wave_Generator/sim/phase_tb.v {1 {vlog -work work -stats=none E:/Project/Bach_Khoa/Wave_Generator/sim/phase_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module phase_accumulator
+-- Compiling module phase_tb
 
 Top level modules:
-	phase_accumulator
+	phase_tb
 
-} {} {}} E:/Project/Bach_Khoa/Wave_Generator/src/sin_wave.v {1 {vlog -work work -stats=none {E:\Project\Bach_Khoa\Wave_Generator\src\sin_wave.v}
+} {} {}} E:/Project/Bach_Khoa/Wave_Generator/sim/full_sine_lut_tb.v {1 {vlog -work work -stats=none E:/Project/Bach_Khoa/Wave_Generator/sim/full_sine_lut_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module full_sine_lut_tb
+
+Top level modules:
+	full_sine_lut_tb
+
+} {} {}} E:/Project/Bach_Khoa/Wave_Generator/src/full_square_lut.v {1 {vlog -work work -stats=none E:/Project/Bach_Khoa/Wave_Generator/src/full_square_lut.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module full_square_lut
+
+Top level modules:
+	full_square_lut
+
+} {} {}} E:/Project/Bach_Khoa/Wave_Generator/src/square_wave.v {1 {vlog -work work -stats=none E:/Project/Bach_Khoa/Wave_Generator/src/square_wave.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module square_wave
+
+Top level modules:
+	square_wave
+
+} {} {}} E:/Project/Bach_Khoa/Wave_Generator/src/sin_wave.v {1 {vlog -work work -stats=none E:/Project/Bach_Khoa/Wave_Generator/src/sin_wave.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module sin_wave
 
 Top level modules:
 	sin_wave
+
+} {} {}} E:/Project/Bach_Khoa/Wave_Generator/src/phase_accumulator.v {1 {vlog -work work -stats=none E:/Project/Bach_Khoa/Wave_Generator/src/phase_accumulator.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module phase_accumulator
+
+Top level modules:
+	phase_accumulator
 
 } {} {}} E:/Project/Bach_Khoa/Wave_Generator/src/full_sine_lut.v {1 {vlog -work work -stats=none E:/Project/Bach_Khoa/Wave_Generator/src/full_sine_lut.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -32,5 +60,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 
 Top level modules:
 	full_sine_lut
+
+} {} {}} E:/Project/Bach_Khoa/Wave_Generator/sim/wave_square_tb.v {1 {vlog -work work -stats=none E:/Project/Bach_Khoa/Wave_Generator/sim/wave_square_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module wave_square_tb
+
+Top level modules:
+	wave_square_tb
+
+} {} {}} E:/Project/Bach_Khoa/Wave_Generator/src/square_lut.v {1 {vlog -work work -stats=none E:/Project/Bach_Khoa/Wave_Generator/src/square_lut.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module square_lut
+
+Top level modules:
+	square_lut
 
 } {} {}}

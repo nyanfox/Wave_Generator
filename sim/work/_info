@@ -9,13 +9,13 @@ z2
 cModel Technology
 dD:/App/ModelSim
 vfull_sine_lut
-Z0 !s110 1757830167
+Z0 !s110 1757998109
 !i10b 1
-!s100 BfeND_[AVIR@S71AQ`iCF1
-IeDd5TEho;Je9hDz`d0lb23
+!s100 ]ZBA_>ZWA8ADz]5R;CO:O0
+IifS=;m[h`l5TR@HRl=E?]3
 Z1 VDg1SIo80bB@j0V0VzS_@n1
 Z2 dE:/Project/Bach_Khoa/Wave_Generator/sim
-w1757829603
+w1757996991
 8E:/Project/Bach_Khoa/Wave_Generator/src/full_sine_lut.v
 FE:/Project/Bach_Khoa/Wave_Generator/src/full_sine_lut.v
 L0 1
@@ -23,41 +23,104 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1757830167.000000
+Z4 !s108 1757998109.000000
 !s107 E:/Project/Bach_Khoa/Wave_Generator/src/full_sine_lut.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/Project/Bach_Khoa/Wave_Generator/src/full_sine_lut.v|
 !i113 1
 Z5 o-work work
 Z6 tCvgOpt 0
-vphase_accumulator
-R0
+vfull_sine_lut_tb
+!s110 1757998110
 !i10b 1
-!s100 V=oi9O3b:b[2;nL<j>4lz0
-Ij4n:0jMgS2T3NG4l:;PGe2
+!s100 BH`_QLSzS5N@;;LmTIAdk1
+I7X_G^W^YL?j:3GP<GQNBR1
 R1
 R2
-w1757829223
-8E:\Project\Bach_Khoa\Wave_Generator\src\phase_accumulator.v
-FE:\Project\Bach_Khoa\Wave_Generator\src\phase_accumulator.v
+w1757995571
+8E:/Project/Bach_Khoa/Wave_Generator/sim/full_sine_lut_tb.v
+FE:/Project/Bach_Khoa/Wave_Generator/sim/full_sine_lut_tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1757998110.000000
+!s107 E:/Project/Bach_Khoa/Wave_Generator/sim/full_sine_lut_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Project/Bach_Khoa/Wave_Generator/sim/full_sine_lut_tb.v|
+!i113 1
+R5
+R6
+vfull_square_lut
+R0
+!i10b 1
+!s100 IVNFT<MEIN0U5idfNY@ZR0
+IgoVlAi2XzW?Q0ko2H=dZI3
+R1
+R2
+w1757992436
+8E:/Project/Bach_Khoa/Wave_Generator/src/full_square_lut.v
+FE:/Project/Bach_Khoa/Wave_Generator/src/full_square_lut.v
 L0 1
 R3
 r1
 !s85 0
 31
 R4
-!s107 E:\Project\Bach_Khoa\Wave_Generator\src\phase_accumulator.v|
-!s90 -reportprogress|300|-work|work|-stats=none|E:\Project\Bach_Khoa\Wave_Generator\src\phase_accumulator.v|
+!s107 E:/Project/Bach_Khoa/Wave_Generator/src/full_square_lut.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Project/Bach_Khoa/Wave_Generator/src/full_square_lut.v|
+!i113 1
+R5
+R6
+vphase_accumulator
+R0
+!i10b 1
+!s100 Se2GjSffH?=lQ2?>?^Y=K1
+IJi3Q`EzVnzA5:aLAPoGRF2
+R1
+R2
+w1757990811
+8E:/Project/Bach_Khoa/Wave_Generator/src/phase_accumulator.v
+FE:/Project/Bach_Khoa/Wave_Generator/src/phase_accumulator.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/Project/Bach_Khoa/Wave_Generator/src/phase_accumulator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Project/Bach_Khoa/Wave_Generator/src/phase_accumulator.v|
+!i113 1
+R5
+R6
+vphase_tb
+R0
+!i10b 1
+!s100 <44_>:hYK8ijWlBXzKT5Q1
+IPF0_1md9i@^jF:K4j[1j:1
+R1
+R2
+w1757997967
+8E:/Project/Bach_Khoa/Wave_Generator/sim/phase_tb.v
+FE:/Project/Bach_Khoa/Wave_Generator/sim/phase_tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/Project/Bach_Khoa/Wave_Generator/sim/phase_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Project/Bach_Khoa/Wave_Generator/sim/phase_tb.v|
 !i113 1
 R5
 R6
 vsin_lut
 R0
 !i10b 1
-!s100 UL9HKJI2CZhe@9CD:DW2W3
-ILjRdFf;=]Y[An2NeC0E^O0
+!s100 Wcc=JDL1P`EQgPh;IMnWb1
+I4EmLR5?l^54iIK7WJP_B>2
 R1
 R2
-w1757826183
+w1757989650
 8E:/Project/Bach_Khoa/Wave_Generator/src/sin_lut.v
 FE:/Project/Bach_Khoa/Wave_Generator/src/sin_lut.v
 L0 1
@@ -74,42 +137,105 @@ R6
 vsin_wave
 R0
 !i10b 1
-!s100 FD<CjFFB:OG<2lT@;9mae3
-Ia@h<@l_XNOMkOc:6eEb0@1
+!s100 z1el]@hzZP:UA`0PUTfEB3
+IlRJfTY@5^iW7^SWnJ_JbK2
 R1
 R2
-w1757829250
-8E:\Project\Bach_Khoa\Wave_Generator\src\sin_wave.v
-FE:\Project\Bach_Khoa\Wave_Generator\src\sin_wave.v
+w1757998053
+8E:/Project/Bach_Khoa/Wave_Generator/src/sin_wave.v
+FE:/Project/Bach_Khoa/Wave_Generator/src/sin_wave.v
 L0 1
 R3
 r1
 !s85 0
 31
 R4
-!s107 E:\Project\Bach_Khoa\Wave_Generator\src\sin_wave.v|
-!s90 -reportprogress|300|-work|work|-stats=none|E:\Project\Bach_Khoa\Wave_Generator\src\sin_wave.v|
+!s107 E:/Project/Bach_Khoa/Wave_Generator/src/sin_wave.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Project/Bach_Khoa/Wave_Generator/src/sin_wave.v|
+!i113 1
+R5
+R6
+vsquare_lut
+R0
+!i10b 1
+!s100 @QgAL7CCfBKO3QQQc2l=c3
+I<]oGkU::9a?`ci8V1[Ic60
+R1
+R2
+w1757993067
+8E:/Project/Bach_Khoa/Wave_Generator/src/square_lut.v
+FE:/Project/Bach_Khoa/Wave_Generator/src/square_lut.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/Project/Bach_Khoa/Wave_Generator/src/square_lut.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Project/Bach_Khoa/Wave_Generator/src/square_lut.v|
+!i113 1
+R5
+R6
+vsquare_wave
+R0
+!i10b 1
+!s100 RWMfaHi8^FY2QWM>m6SC;1
+IjYdceRnVT6]V6kd?SaEY@3
+R1
+R2
+w1757992474
+8E:/Project/Bach_Khoa/Wave_Generator/src/square_wave.v
+FE:/Project/Bach_Khoa/Wave_Generator/src/square_wave.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/Project/Bach_Khoa/Wave_Generator/src/square_wave.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Project/Bach_Khoa/Wave_Generator/src/square_wave.v|
 !i113 1
 R5
 R6
 vwave_sin_tb
-!s110 1757830395
+R0
 !i10b 1
-!s100 mIM]nRKo6D_3]mDi`zJTD3
-IocdTWokXNmh0=f@ZTn=@E3
+!s100 DHzmd_RFbXNYERBh>ae9F3
+I_Ae@FLndmGf[WVjeYS4Co2
 R1
 R2
-w1757830383
-8E:\Project\Bach_Khoa\Wave_Generator\sim\wave_sin_tb.v
-FE:\Project\Bach_Khoa\Wave_Generator\sim\wave_sin_tb.v
+w1757998098
+8E:/Project/Bach_Khoa/Wave_Generator/sim/wave_sin_tb.v
+FE:/Project/Bach_Khoa/Wave_Generator/sim/wave_sin_tb.v
 L0 2
 R3
 r1
 !s85 0
 31
-!s108 1757830395.000000
-!s107 E:\Project\Bach_Khoa\Wave_Generator\sim\wave_sin_tb.v|
-!s90 -reportprogress|300|-work|work|-stats=none|E:\Project\Bach_Khoa\Wave_Generator\sim\wave_sin_tb.v|
+R4
+!s107 E:/Project/Bach_Khoa/Wave_Generator/sim/wave_sin_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Project/Bach_Khoa/Wave_Generator/sim/wave_sin_tb.v|
+!i113 1
+R5
+R6
+vwave_square_tb
+R0
+!i10b 1
+!s100 hGiKBDE@GUA7H3UjRbEE40
+IX7DOBo]NK3WRYI7OKDGk`1
+R1
+R2
+w1757994190
+8E:/Project/Bach_Khoa/Wave_Generator/sim/wave_square_tb.v
+FE:/Project/Bach_Khoa/Wave_Generator/sim/wave_square_tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/Project/Bach_Khoa/Wave_Generator/sim/wave_square_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Project/Bach_Khoa/Wave_Generator/sim/wave_square_tb.v|
 !i113 1
 R5
 R6

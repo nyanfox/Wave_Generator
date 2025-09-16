@@ -13,7 +13,7 @@ module full_sine_lut (i_clk, i_add, o_data); //take 2 clock to output;
  always @(posedge i_clk) begin
  
   if(i_add[11:10] == 2'b01 || i_add[11:10] == 2'b11) begin
-      lut1_i_add <= ~(i_add[9:0]);     
+      lut1_i_add <= 10'd1023 - i_add[9:0];     
   end
   
   else begin

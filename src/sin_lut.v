@@ -8,7 +8,7 @@ module sin_lut (i_clk, i_add, o_data);
  reg [11:0] rom [0:1023];
  
  initial begin 
-     $readmemh("../data/sine_1024.hex", rom);
+     $readmemh("../data/sine_1024_2.hex", rom);
  end
  
  always @(posedge i_clk) begin
