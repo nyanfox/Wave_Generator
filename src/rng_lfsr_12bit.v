@@ -1,0 +1,22 @@
+module rng_lfsr_12bit(i_clk, i_rst, o_data);
+
+ input i_clk;
+ input i_rst;
+ output reg [11:0] o_data;
+ 
+ reg [11:0] lfsr;
+
+wire feedback = lfsr[11] ^ lfsr[10] ^ lfsr[9] ^ lfsr[3]; // chọn các bit để XOR
+
+always @(posedge i_clk) begin
+    if (!i_rst)
+        lfsr <= 12'hACE; // seed ban đầu (không được 0)
+    else
+        lfsr <= {lfsr[10:0], feedback};
+end
+
+always @(posedge i_clk) begin
+    o_data <= lfsr; // xuất giá trị
+end
+
+endmodule

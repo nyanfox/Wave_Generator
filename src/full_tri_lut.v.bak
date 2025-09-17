@@ -1,0 +1,25 @@
+module full_tri_lut (i_clk, i_add, o_data); //take 2 clock to output;
+
+ input i_clk;
+ input [9:0] i_add;
+ output [11:0] o_data;
+ 
+ reg [9:0] lut1_i_add;
+
+ tri_lut lut1 (.i_clk(i_clk), .i_add(lut1_i_add), .o_data(o_data));
+ 
+ 
+ always @(posedge i_clk) begin
+ 
+  if(i_add == 0) begin
+      lut1_i_add <= i_add;
+  end
+  
+  else begin
+      lut1_i_add <= ~(i_add);
+  end
+ 
+ end
+ 
+
+endmodule

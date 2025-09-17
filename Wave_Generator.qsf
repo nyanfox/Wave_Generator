@@ -39,7 +39,7 @@
 
 set_global_assignment -name FAMILY "Cyclone V"
 set_global_assignment -name DEVICE 5CSXFC6D6F31C6
-set_global_assignment -name TOP_LEVEL_ENTITY sin_wave
+set_global_assignment -name TOP_LEVEL_ENTITY wave_generator
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 24.1STD.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "09:28:05  SEPTEMBER 14, 2025"
 set_global_assignment -name LAST_QUARTUS_VERSION "24.1std.0 Lite Edition"
@@ -61,13 +61,19 @@ set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 set_global_assignment -name VERILOG_FILE src/full_sine_lut.v
 set_global_assignment -name VERILOG_FILE src/sin_wave.v
 set_global_assignment -name VERILOG_FILE sim/wave_sin_tb.v
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name VERILOG_FILE src/square_lut.v
 set_global_assignment -name VERILOG_FILE src/full_square_lut.v
 set_global_assignment -name VERILOG_FILE src/square_wave.v
 set_global_assignment -name VERILOG_FILE sim/wave_square_tb.v
 set_global_assignment -name VERILOG_FILE sim/phase_tb.v
 set_global_assignment -name VERILOG_FILE sim/sull_sine_lut_tb.v
+set_global_assignment -name VERILOG_FILE src/saw_lut.v
+set_global_assignment -name VERILOG_FILE src/tri_lut.v
+set_global_assignment -name VERILOG_FILE src/wave_generator.v
+set_global_assignment -name VERILOG_FILE src/full_saw_lut.v
+set_global_assignment -name VERILOG_FILE src/full_tri_lut.v
+set_global_assignment -name VERILOG_FILE src/rng_lfsr_12bit.v
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
